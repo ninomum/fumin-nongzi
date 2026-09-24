@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>蒙城县富民农资经营门市部 - 种子·化肥·肥料·农药零售</title>
+  <meta name="description" content="蒙城县富民农资经营门市部（个体工商户，前身蒙城县富民种业有限公司，2009年始创，经营者刘霞），主营农作物种子、化肥、肥料销售及农药零售。地址：安徽省亳州市蒙城县城关街道办事处涡河路93号，电话：13731803488。" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- 地图库（免费开源，国内 CDN 加速） -->
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+</head>
+<body>
+
+  <!-- 顶部信息条 -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span class="topbar-item">📍 安徽省亳州市蒙城县城关街道办事处涡河路93号</span>
+      <span class="topbar-item">📞 服务热线：13731803488 13505672141</span>
+    </div>
+  </div>
+
+  <!-- 导航 -->
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="#home" class="brand">
+        <span class="brand-logo" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="38" height="38">
+            <circle cx="24" cy="24" r="22" fill="#2e7d32"/>
+            <path d="M24 34c0-8 4-14 12-16-1 9-5 14-12 16z" fill="#a5d6a7"/>
+            <path d="M24 34c0-8-4-14-12-16 1 9 5 14 12 16z" fill="#c8e6c9"/>
+            <rect x="22.5" y="30" width="3" height="10" rx="1.5" fill="#1b5e20"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <strong>富民农资</strong>
+          <small>蒙城县富民农资经营门市部</small>
+        </span>
+      </a>
+
+      <nav class="menu" id="menu">
+        <a href="#home">首页</a>
+        <a href="#about">门市简介</a>
+        <a href="#history">发展历程</a>
+        <a href="#products">产品中心</a>
+        <a href="#advantage">服务优势</a>
+        <a href="#news">农技资讯</a>
+        <a href="#contact">联系我们</a>
+      </nav>
+
+      <a href="#contact" class="btn-call">立即咨询</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="菜单">☰</button>
+    </div>
+  </header>
+
+  <!-- 首页轮播 -->
+  <section class="hero" id="home">
+    <div class="slides" id="slides">
+      <div class="slide slide-1 active">
+        <div class="slide-content">
+          <h1>放心农资 · 富民万家</h1>
+          <p>种子、化肥、肥料、农药一站式平价供应，专业服务护航蒙城农户</p>
+          <a href="#products" class="btn-primary">查看产品</a>
+        </div>
+      </div>
+      <div class="slide slide-2">
+        <div class="slide-content">
+          <h1>十七年积淀 · 正品保障</h1>
+          <p>前身富民种业2009年始创，同一经营地址、同一支队伍，买得放心</p>
+          <a href="#advantage" class="btn-primary">了解我们</a>
+        </div>
+      </div>
+      <div class="slide slide-3">
+        <div class="slide-content">
+          <h1>购资送技 · 贴心指导</h1>
+          <p>选种配肥、科学用药随时问，助您增产增收</p>
+          <a href="#news" class="btn-primary">农技资讯</a>
+        </div>
+      </div>
+    </div>
+    <div class="dots" id="dots"></div>
+  </section>
+
+  <!-- 关于我们 -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">ABOUT US</span>
+        <h2>门市简介</h2>
+        <p class="lead">始创于2009年，扎根蒙城，服务三农</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p><strong>蒙城县富民农资经营门市部</strong>（个体工商户）位于安徽省亳州市蒙城县城关街道办事处涡河路93号，经营者刘霞，登记机关为蒙城县市场监督管理局，当前经营状态为存续。</p>
+          <p>门市部的前身是<strong>蒙城县富民种业有限公司</strong>（2009年11月24日注册设立）。2025年2月8日经营主体调整后，本门市部于<strong>同一经营地址</strong>完成注册登记，延续原有的经营基础与客户口碑，主营不再分装的包装农作物种子、化肥、肥料销售及农药零售，并提供实用的选种、配肥与科学用药技术指导，致力于为周边种植户提供<strong>平价、正品、贴心</strong>的采购体验。</p>
+          <p>我们坚持"质量第一、信誉第一、顾客至上"的经营理念，与多家正规农资生产厂家建立稳定合作，从源头把控产品质量；同时结合本地种植情况提供实用的技术咨询，让农户买得放心、用得安心。</p>
+          <ul class="feature-list">
+            <li>✅ 正规渠道进货，证照齐全可追溯</li>
+            <li>✅ 品类齐全，满足大田与经济作物需求</li>
+            <li>✅ 平价经营，实实在在为农户省钱</li>
+            <li>✅ 购资送技，种植难题随时解答</li>
+          </ul>
+          <a href="#contact" class="btn-outline">联系我们</a>
+        </div>
+        <div class="about-stats">
+          <div class="stat"><span class="num" data-target="2009">0</span><small>年 始创经营</small></div>
+          <div class="stat"><span class="num" data-target="17">0</span><small>年 农资经验</small></div>
+          <div class="stat"><span class="num" data-target="500">0</span><small>种+ 在售商品</small></div>
+          <div class="stat"><span class="num" data-target="100">0</span><small>% 正品保障</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 发展历程 -->
+  <section class="section section-alt" id="history">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">HISTORY</span>
+        <h2>发展历程</h2>
+        <p class="lead">从富民种业到富民农资，同一地址、十七年坚守</p>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-year">2009</div>
+          <div class="tl-body">
+            <h3>前身注册设立</h3>
+            <p>2009年11月24日，<strong>蒙城县富民种业有限公司</strong>注册设立，从事农作物种子经营，开始为本地种植户供应良种。</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-year">2025</div>
+          <div class="tl-body">
+            <h3>经营主体调整</h3>
+            <p>2025年2月8日，经营主体调整后，<strong>蒙城县富民农资经营门市部</strong>于同一经营地址（涡河路93号）完成注册登记，经营者刘霞，登记状态存续。</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-year">现在</div>
+          <div class="tl-body">
+            <h3>一站式农资零售</h3>
+            <p>延续原有经营基础，主营不再分装的包装农作物种子、化肥、肥料销售；农药零售属许可项目，须经相关部门批准后持证经营。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 产品中心 -->
+  <section class="section section-alt" id="products">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">PRODUCTS</span>
+        <h2>产品中心</h2>
+        <p class="lead">覆盖种植全流程的农资产品</p>
+      </div>
+
+      <div class="tabs" id="tabs">
+        <button class="tab active" data-cat="seed">🌱 种子种苗</button>
+        <button class="tab" data-cat="fert">🧪 化肥肥料</button>
+        <button class="tab" data-cat="pest">🛡️ 农药</button>
+      </div>
+
+      <div class="product-grid" id="productGrid"><!-- JS 渲染 --></div>
+      <p class="hint">* 以上为部分代表产品，具体规格与价格以门市现场为准；农药零售为许可经营项目，持证销售。欢迎到店或电话咨询。</p>
+    </div>
+  </section>
+
+  <!-- 服务优势 -->
+  <section class="section" id="advantage">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">WHY CHOOSE US</span>
+        <h2>服务优势</h2>
+        <p class="lead">为什么周边农户都选富民农资</p>
+      </div>
+      <div class="adv-grid">
+        <div class="adv-card">
+          <div class="adv-icon">🛒</div>
+          <h3>品类齐全</h3>
+          <p>种子、化肥、肥料、农药一站购齐，省去多处奔波。</p>
+        </div>
+        <div class="adv-card">
+          <div class="adv-icon">💰</div>
+          <h3>平价实惠</h3>
+          <p>厂家直采、薄利多销，把利润让给农户，实实在在省钱。</p>
+        </div>
+        <div class="adv-card">
+          <div class="adv-icon">✅</div>
+          <h3>正品保障</h3>
+          <p>正规渠道、证照齐全、可追溯，买得放心、用得安心。</p>
+        </div>
+        <div class="adv-card">
+          <div class="adv-icon">👨‍🌾</div>
+          <h3>农技支持</h3>
+          <p>购农资送技术指导，选种配肥、科学用药随时问。</p>
+        </div>
+        <div class="adv-card">
+          <div class="adv-icon">🚚</div>
+          <h3>就近配送</h3>
+          <p>蒙城本地及周边支持送货上门，农忙时节不误时效。</p>
+        </div>
+        <div class="adv-card">
+          <div class="adv-icon">⭐</div>
+          <h3>诚信经营</h3>
+          <p>持证经营、童叟无欺，靠回头客和好口碑立足乡村。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 农技资讯 -->
+  <section class="section section-alt" id="news">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">NEWS &amp; TECH</span>
+        <h2>农技资讯</h2>
+        <p class="lead">实用种植技术 · 行业动态</p>
+      </div>
+      <div class="news-grid">
+        <article class="news-card">
+          <div class="news-date"><span>09</span>2026.09</div>
+          <h3>小麦播种前如何选种与拌种？</h3>
+          <p>选种看纯度与发芽率，拌种可防地下害虫与苗期病害，附常用药剂配比建议。</p>
+          <a href="#" class="news-more">阅读全文 →</a>
+        </article>
+        <article class="news-card">
+          <div class="news-date"><span>08</span>2026.08</div>
+          <h3>玉米中后期施肥与防倒伏要点</h3>
+          <p>大喇叭口期重施穗肥，注意钾肥搭配；风雨前避免过量氮肥以防倒伏。</p>
+          <a href="#" class="news-more">阅读全文 →</a>
+        </article>
+        <article class="news-card">
+          <div class="news-date"><span>07</span>2026.07</div>
+          <h3>夏季高温期农药安全使用提醒</h3>
+          <p>避开中午高温施药，做好个人防护，合理混配避免药害，保护蜜蜂等益虫。</p>
+          <a href="#" class="news-more">阅读全文 →</a>
+        </article>
+        <article class="news-card">
+          <div class="news-date"><span>06</span>2026.06</div>
+          <h3>玉米良种怎么选？记住这三点</h3>
+          <p>看审定区域、看生育期与本地积温是否匹配、看抗病抗倒能力，切勿跨区引种。</p>
+          <a href="#" class="news-more">阅读全文 →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系我们 -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">CONTACT</span>
+        <h2>联系我们</h2>
+        <p class="lead">欢迎到店选购或电话咨询</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="info-item"><span class="info-ico">🏪</span><div><strong>门市名称</strong><p>蒙城县富民农资经营门市部（个体工商户）</p></div></div>
+          <div class="info-item"><span class="info-ico">📍</span><div><strong>门店地址</strong><p>安徽省亳州市蒙城县城关街道办事处涡河路93号</p></div></div>
+          <div class="info-item"><span class="info-ico">🏛️</span><div><strong>登记信息</strong><p>登记机关：蒙城县市场监督管理局　·　成立日期：2025-02-08　·　经营状态：存续　·　企业类型：个体工商户　·　所属行业：批发业（农资零售）</p></div></div>
+          <div class="info-item"><span class="info-ico">📋</span><div><strong>经营范围</strong><p>农作物种子经营（仅限不再分装的包装种子）；化肥、肥料销售；农药零售（许可项目，须经相关部门批准后方可开展经营）。</p></div></div>
+          <div class="info-item"><span class="info-ico">🌾</span><div><strong>发展沿革</strong><p>前身蒙城县富民种业有限公司，2009年11月24日注册设立；2025年2月8日经营主体调整，于同一经营地址完成门市部注册登记。</p></div></div>
+          <div class="info-item"><span class="info-ico">📞</span><div><strong>联系电话</strong><p>13731803488 13505672141</p></div></div>
+          <div class="info-item"><span class="info-ico">🕒</span><div><strong>营业时间</strong><p>每日 07:00 - 19:00（农忙时节延长）</p></div></div>
+        </div>
+
+        <!-- 门店地图：双通道（高德官方 JS API 优先，Leaflet 免 Key 兜底），落点为写死的实测坐标 -->
+        <div class="contact-map">
+          <div class="map-head">
+            <h3 class="map-title">📍 门店位置</h3>
+            <div class="map-toolbar">
+              <button class="map-btn active" type="button" data-layer="road">标准地图</button>
+              <button class="map-btn" type="button" data-layer="sat">卫星影像</button>
+              <a class="map-open" href="https://uri.amap.com/marker?position=116.552589,33.271841&amp;name=%E8%92%99%E5%9F%8E%E5%8E%BF%E5%AF%8C%E6%B0%91%E5%86%9C%E8%B5%84%E7%BB%8F%E8%90%A5%E9%97%A8%E5%B8%82%E9%83%A8&amp;coordinate=gaode&amp;callnative=0" target="_blank" rel="noopener">在高德地图打开 ↗</a>
+            </div>
+          </div>
+          <div id="storeMap" class="store-map" aria-label="门店位置地图"></div>
+          <p class="map-note">底图与周边地标由高德地图提供，可能存在更新延迟；找店请以「涡河路93号」门牌号或电话为准。</p>
+        </div>
+      </div>
+
+      <!-- 留言表单（纯前端，提交后仅本地提示，不发送数据） -->
+      <form class="contact-form" id="contactForm" novalidate>
+        <h3>客户留言</h3>
+        <div class="form-row">
+          <input type="text" name="name" placeholder="您的称呼 *" required />
+          <input type="tel" name="phone" placeholder="联系电话 *" required />
+        </div>
+        <input type="text" name="subject" placeholder="咨询内容（如：玉米种子、复合肥、农药）" />
+        <textarea name="message" rows="4" placeholder="详细描述您的需求 *" required></textarea>
+        <button type="submit" class="btn-primary">提交留言</button>
+        <p class="form-tip" id="formTip">温馨提示：本表单为演示，提交后不会真正发送。如需真正接收留言，可对接免费表单服务（见使用说明）。</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>蒙城县富民农资经营门市部</h4>
+        <p>种子 · 化肥 · 肥料 · 农药零售</p>
+        <p>前身富民种业，2009年始创</p>
+        <p>平价正品，服务三农</p>
+      </div>
+      <div class="footer-col">
+        <h4>快速导航</h4>
+        <a href="#about">门市简介</a>
+        <a href="#history">发展历程</a>
+        <a href="#products">产品中心</a>
+        <a href="#advantage">服务优势</a>
+        <a href="#news">农技资讯</a>
+        <a href="#contact">联系我们</a>
+      </div>
+      <div class="footer-col">
+        <h4>联系方式</h4>
+        <p>📍 安徽省亳州市蒙城县涡河路93号</p>
+        <p>📞 13731803488 13505672141</p>
+        <p>🕒 每日 07:00 - 19:00</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> 蒙城县富民农资经营门市部</p>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-top" id="backTop" aria-label="返回顶部">↑</a>
+
+  <script src="https://cdn.bootcdn.net/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
